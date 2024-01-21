@@ -14,6 +14,8 @@ Scenarios when VM is needed:
 -  **Extends Datacenter to the cloud:** Virtaul machines and virtual networks can be used to extend the on-prem datacenter to the cloud.<br>Allows organizations to run apps like SharePoint on azure VMs instead of running them on Physical server.<br>Makes it easier and sometimes even less expensive to deploy apps.
 -  **Disaster Recovery:** Extending an on-prem datacenter to the cloud allows you to run apps in the cloud on VMs. If the primary datacenter fails, you can create VMs to run critical apps. Once primary datacenter comes back up, VMs can be shutdown.
 -  **Lift and Shift:** Virtual machines are a good choice when you want to move from a physical on-prem server to the cloud. (Create an image of your physical server and create a VM)
+-  **Availability and Scalability:** Use VM Scale Set when you need high availability, scalabilty, and redundancy. Number of instances in a scale set can automatically increase or decrease, based on demand or on a defined schedule.
+-  **Large-Scale Parallel and High Performance Batch Jobs:** VMs are a good choice when you need to run large-scale parallel and high-performance computing batch jobs. </br>***Azure Batch***</br>*Allows you to run  large jobs, while also providing the ability to scales to tens, hundreds pr ven thousands of VMs.*
 
 
 **Resource Created with a VM deployment:**
